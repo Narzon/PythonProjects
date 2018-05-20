@@ -1,0 +1,9 @@
+friend1:pass1
+friend2:pass2
+friend3:pass3
+friend4:pass4
+friend5:pass5
+friend6:pass6
+friend7:pass7
+friend8:pass8
+friend9:pass9

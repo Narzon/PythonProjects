@@ -1,0 +1,30 @@
+
+class CircularList(object):
+
+   def __init__ (self): 
+      # the circular list constructor method.
+
+   def add (self,item):
+      # Insert an element in the list.  You will need this to build your
+      # circular list from the data strings in the input file.  Hint:  figure
+      # out which of the "add" methods we've discussed in class to use is
+      # useful here and use it as a template for this method.
+
+   def isEmpty (self):
+      # Return True if the cicrcular list is empty.
+  
+   def onlyOneNode (self):
+      # Return True if there is only one node left in the circular list.
+      # This would be the "survivor".
+
+   def remove (self,current,previous):
+      # Delete the node pointed to by "current" from the circular list.
+      # Pass the "previous" pointer along for convenience.  This method
+      # would only be called if there are at least 2 nodes in the list.
+      # Return a pointer to the node immediately following the deleted
+      # one.  Hint:  be sure to correctly handle the case where you delete
+      # the first node in the circular list.
+
+   def __str__ (self):
+      # Return a string representation of the circular list.  It should
+      # include line breaks after every ten elements in the list.

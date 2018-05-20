@@ -1,0 +1,25 @@
+def is_valid(n):
+	list_n = []
+	string_n = str(n)
+	for digit in string_n:
+		list_n += digit
+	list_product = 1
+	for i in range (2, len(list_n) - 2, 2):
+		list_n[-i] = list_n[-i] * 2
+		
+
+
+
+
+
+
+
+def main():
+
+	credit_num = eval(input("Enter 15 or 16-digit credit card number: "))
+	credit_num = int(credit_num)
+	credit_num_str = str(credit_num)
+	if len(credit_num_str) != 15 and len(credit_num_str) != 16:
+	   print("Not a 15 or 16-digit number")
+	else:
+		if is_valid(credit_num):
